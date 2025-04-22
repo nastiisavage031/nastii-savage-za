@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  background: #111;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #f0c040;
+}
+
+/* Hero Section Styling */
+.hero {
+  background-image: url('hero-bg.jpg');  /* Path to the image */
+  background-size: cover;  /* Ensure it covers the entire section */
+  background-position: center;  /* Center the image */
+  background-attachment: fixed;  /* Optional: Parallax effect */
+  height: 100vh;  /* Full viewport height */
+  display: flex;
+  align-items: center;  /* Vertically center the content */
+  justify-content: center;  /* Horizontally center the content */
+  color: white;  /* Text color (adjust as needed for readability) */
+  text-align: center;  /* Center text */
+  padding: 0 20px;  /* Optional padding */
+}
+
+.hero-content {
+  max-width: 900px;  /* Limit the width of the content */
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;  /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero .cta {
+  background-color: #ff9900;  /* Customize the CTA button color */
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .cta:hover {
+  background-color: #ff6600;  /* Hover effect for the CTA button */
+}
+
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section.dark {
+  background: #1a1a1a;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.music-embed {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tour-list {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #f0c040;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}
